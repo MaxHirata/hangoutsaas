@@ -1,0 +1,46 @@
+<navbar> </navbar>
+
+<h1> {{eventObject.eventName}} </h1>
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Event Venues</h3>
+                    </div>
+
+                    <ul class="list-group" *ngFor="let venue of venuesObject.venues;">
+                        <li class="list-group-item">{{venue.name}}</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Event Times</h3>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">6:00 PM</li>
+                        <li class="list-group-item">6:30 PM</li>
+                        <li class="list-group-item">7:00 PM</li>
+                        <li class="list-group-item">7:30 PM</li>
+                        <li class="list-group-item">8:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Event Deadline</h3>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">Deadline: 7:00 PM</li>
+                        <li class="list-group-item">Date: {{eventObject.date}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,37 @@
+.panel-group {
+    margin: 30px; 
+}
+
+.panel{
+    font-family: 'Arvo', sans-serif;
+    margin: 10px 0px;
+    box-shadow: 0 6px 6px -6px #999;
+}
+
+.panel .panel-heading {
+    background-color: #333;
+    color: white;
+    font-size: 20px;
+}
+
+#nameStat{
+    display:inline-block;
+    width: 100%;
+}
+
+#nameStat h1 {
+    float: left;
+    color: white;
+}
+
+#nameStat h4 {
+    float: right;
+}
+
+#nameStat a{
+    text-decoration: none;
+}
+
+#nameStat a h1:hover {
+    text-decoration: underline;
+}

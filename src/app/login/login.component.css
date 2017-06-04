@@ -1,0 +1,105 @@
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+.navbar-inverse {
+    background-color: darkred;
+    font-family: 'Arvo', sans-serif;
+}
+
+.navbar-inverse a {
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+/* LOGIN */ 
+
+#jumbo {
+    font-family: 'Arvo', sans-serif;
+    margin: 75px 200px;
+    padding: 20px; 
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 8px 6px -6px #999; 
+    color: white;
+}
+
+.main {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.login-or {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.span-or {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: -2px;
+    margin-left: -25px;
+    background-color: #333;
+    color: white;
+    width: 50px;
+    text-align: center;
+}
+
+.hr-or {
+    background-color: white;
+    height: 1px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+h3 {
+    text-align: center;
+    line-height: 300%;
+}
+
+h3 a {
+    color: grey;
+}
+
+.form-group a {
+    color: grey;
+}
+
+button {
+    background-color: darkred;
+    border-color: #333;
+}
+
+button:hover {
+    background-color: maroon;
+    border-color: #333;
+}
+
+#googleButton a { 
+    background-color: #CB4335;
+    border-color: #333;
+}
+
+#googleButton a:hover {
+    background-color: #B03A2E;
+}
+
+#facebookButton a {
+    background-color: #2471A3;
+    border-color: #333;
+}
+
+#facebookButton a:hover {
+    background-color: #1F618D;
+}

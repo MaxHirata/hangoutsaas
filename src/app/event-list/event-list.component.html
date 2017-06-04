@@ -1,0 +1,15 @@
+<navbar></navbar>
+
+<div class="panel-group">
+  <div class="panel panel-default" *ngFor="let event of eventObject; let i = index">
+    <div class="panel-heading">
+      <div id="nameStat">
+        <a [routerLink] = "['/events/', event.eventId]"><h1> {{event.eventName}} </h1></a>
+        <h4> Status: {{event.status}}</h4> 
+      </div> 
+      <h4> {{event.date}}, {{event.time}} </h4>
+      <h4> {{event.venue}} </h4> 
+    </div> 
+    <div class="panel-body">{{event.description}}</div>
+    </div>
+</div>

@@ -1,0 +1,51 @@
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+.navbar-inverse {
+    background-color: darkred;
+    font-family: 'Arvo', sans-serif;
+}
+
+.navbar-inverse a {
+    color: white;
+}
+
+.navbar-inverse .dropdown-menu li a {
+    color: black;
+}
+
+.nav .navbar-nav {
+    background-color: darkred;
+}
+
+#jumbo {
+    font-family: 'Arvo', sans-serif;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #333333;
+    color: white; 
+    box-shadow: 0 8px 6px -6px #999; 
+}
+
+#jumbo p{
+    font-size: 15px;
+}
+
+.btn-primary {
+    background-color: darkred;
+    color: white;
+    border-color: #333333;
+}
+
+.btn-primary:hover {
+    background-color: maroon;
+}
+
+.navbar-brand {
+    font-size: 25px;
+}

@@ -1,0 +1,31 @@
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+.navbar-inverse {
+    background-color: darkred;
+    font-family: 'Arvo', sans-serif;
+}
+
+.navbar-inverse a {
+    color: white;
+}
+
+.navbar-inverse .dropdown-menu li a {
+    color: black;
+}
+
+.nav .navbar-nav {
+    background-color: darkred;
+}
+
+#navLinks li a:hover {
+    background-color: maroon;
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
+

@@ -1,0 +1,13 @@
+#jumbo {
+    font-family: 'Arvo', sans-serif;
+    margin: 75px 200px;
+    padding: 20px; 
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 8px 6px -6px #999; 
+    color: white;
+}
+
+#jumbo h1 {
+    text-align: center;
+}
